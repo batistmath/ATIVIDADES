@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("fundo_pascoa.png");
+    margin-top: 40px;
+}
+p {
+    color: #000000;
+    font-family: monospace;
+    font-size: 14px;
+}
+#title {
+
+    display: flex;
+    justify-content: center;
+    background-color: #f1d371;
+    border-top: 5px solid #441b00;
+
+}
+#title h1 {
+    font-family: monospace;
+    color: #ffffff;
+    
+}
+#bloco-l {
+    display: inline-flex;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #f1d371;
+    margin-right: 50%;
+}
+#bloco-l img {
+    border-radius: 3px;
+    margin: 5px;
+    margin-right: 20px;
+    width: 150px;
+}
+#bloco-r {
+    display: inline-flex;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #f1d371;
+    margin-left: 50%;
+}
+#bloco-r img {
+    border-radius: 3px;
+    margin: 5px;
+    margin-right: 20px;
+    width: 150px;
+}
